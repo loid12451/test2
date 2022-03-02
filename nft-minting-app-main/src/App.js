@@ -99,7 +99,7 @@ function App() {
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
-  const [feedback, setFeedback] = useState(`Super rare Yggdrasil(Sacred Tree)'s NFT is priced at $10,000. Click buy to mint your NFT.`);
+  const [feedback, setFeedback] = useState(`Super rare Yggdrasil(Sacred Tree)'s NFT is priced at $10,000. Click buy to get your NFT.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
@@ -288,6 +288,7 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
+                      Super rare Yggdrasil(Sacred Tree)'s NFT is priced at $10,000.
                       Connect to the {CONFIG.NETWORK.NAME} network
                     </s.TextDescription>
                     <s.SpacerSmall />
