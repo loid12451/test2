@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x51d6538fd229011A59df6E9Afef5B35dBD9231a9",
+  "SCAN_LINK": "https://polygonscan.com/address/0x51d6538fd229011a59df6e9afef5b35dbd9231a9",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "MetaRoid NFT",
+  "SYMBOL": "MR",
+  "MAX_SUPPLY": 10000,
+  "WEI_COST": 10000000000000000000,
+  "DISPLAY_COST": 10,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/metaroid-nft-v2",
+  "SHOW_BACKGROUND": true
+}
